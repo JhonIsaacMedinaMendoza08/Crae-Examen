@@ -3,7 +3,7 @@
 body{
     width: 1440px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 /*------------------------HEADER---------------------------*/
 header{
@@ -481,6 +481,7 @@ main{
 /*-----------------------------Footer----------------------------*/
 footer {
     background-color: var(--color-2);
+    margin-top: 200px;
 
 }
 
@@ -490,6 +491,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 0 50px;
 
 }
 .footer__container h4{
@@ -497,9 +499,78 @@ footer {
     font-size: 24px;
     color: var(--color-4);
 }
-.footer__container h5{
+.footer__container a{
     font-family: "RobotoCondensed-Regular";
     font-size: 24px;
     color: var(--color-8);
+    text-decoration: none;
+
+}
+/*--------------------Mobile Area------------------*/
+@media (max-width: 428px){
+
+/*------------------------HEADER---------------------------*/
+header{
+    margin-top: 31px;
+    width: 428px;
+    height: 141px;
+}
+.Header__Area {
+    /* background: red; */
+    height: 96px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px;
+}
+.div_AQUA {
+    width: 84px;
+    height: 45px;
+    background: var(--color-3);
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 48px;
+    border-bottom-right-radius: 48px;
+    justify-content: center;
+    overflow: hidden;
+}
+.div_AQUA h1{
+    font-size: 20px; 
+}
+.div_AQUA img{
+    width: 26px;
+    height: 26px;
+}
+.div_buttonsMiddle {
+    width: 232px;
+    white-space: nowrap; /* Evita saltos de línea */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.div_buttonsMiddle a{
+    text-decoration: none;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 10px;
+    color: var(--color-2);
+}
+.div_buttonsLeft {
+    margin-right: 28px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 11.67px;
+}
+.div_buttonsLeft img{
+    width: 15px;
+    height: 15px;
+}
+
+
+
+
+
+
+
+
 
 }
