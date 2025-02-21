@@ -360,3 +360,56 @@ main{
     height: 124px;
     margin-left: 50px;
 }
+
+/* --------------------------------support us--------------------------*/
+
+.sectionThree__WhiteHome {
+    margin-top: 200px;
+}
+.container__sectionThree {
+    display: grid;
+    grid-template-columns: 751px 400px;
+    grid-template-rows: 470px;
+    gap: 40px;
+    justify-content: center;
+}
+.container__supportUs {
+
+}
+.container__supportUs h2{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 72px;
+    color: var(--color-2);
+}
+.container__supportUs p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--color-2);
+}
+.container__supportUs__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    /* background: red; */
+}
+.container__supportUs__button img{
+    height: 305px;
+    width: 375px;
+}
+.button__giveUs {
+    width: 282px;
+    height: 57px;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 36px;
+    color: var(--color-4);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    background-color: var(--color-2);
+    margin-top: 43px;
+
+}
