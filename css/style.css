@@ -73,8 +73,8 @@ main{
 }
 .div__sectionOneWhiteHome {
     display: grid;
-    grid-template-columns: 800px 500px 100px;
-    grid-template-rows: 1fr;
+    grid-template-columns: 800px 500px 140px;
+    grid-template-rows: 589px;
     grid-template-areas: "container__Craetexts container__buyAndImages container__redes";
 }
 .container__Craetexts {
@@ -91,22 +91,66 @@ main{
     font-family: "RobotoCondensed-Regular";
     font-size: 56.4px;
     color: var(--color-3);
+    margin-top: 28px;
 }
 .container__Craetexts p{
     width: 685px;
     font-family: "RobotoCondensed-Regular";
     font-size: 26px;
+    color: var(--color-3);
+    margin-top: -40px;
+    margin-right: 10px;
 }
 .container__buyAndImages {
     grid-area: container__buyAndImages;
     background: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .container__buyAndImages img{
+    
+}
+.iconBuy {
+    width: 36px;
+    height: 36px;
 }
 .container__buyAndImages a{
+    width: 237px;
+    height: 54px;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 40px;
+    color: var(--color-4);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 100px;
+    background-color: var(--color-2);
+    margin-top: -20px;
+
 }
 .container__redes {
     grid-area: container__redes;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 50px;
 }
 .container__redes img{
+
+}
+.iconInstagram {
+    width: 60px;
+    height: 60px;
+}
+.iconFacebook {
+    width: 59px;
+    height: 59px;
+}
+.iconK {
+    width: 59px;
+    height: 64px; 
 }
